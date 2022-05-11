@@ -1,108 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T05:57:35.372Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Nq0Ixhu6VWY3jU8x4Z-G" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T06:23:23.917Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="h5x8pm7GM_Ts81juFFLf" version="18.0.2" type="github">
   <diagram id="lErkqRbjp-bU6QlJ5qAt" name="Page-1">
     <mxGraphModel dx="868" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-3" value="Candidats to our db&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="170" y="150" width="90" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-1" value="add menu/meal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="110" y="120" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-8" target="-zRJ9sDAfq6-GGD5WKrb-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-8" value="meals checked" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="230" y="220" width="70" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-11" value="meals check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="110" y="220" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-14" value="map" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="430" y="139" width="90" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-15" value="get_or_create map link" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="374" y="110" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-15" target="-zRJ9sDAfq6-GGD5WKrb-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-5" value="nutritionis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="60" y="170" width="70" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-21" target="-zRJ9sDAfq6-GGD5WKrb-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="525" y="80" />
-              <mxPoint x="283" y="80" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-21" value="map key found or created" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="490" y="110" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-22" value="send to our db" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="110" y="300" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-23" value="update map link" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="374" y="200" width="80" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-26" target="-zRJ9sDAfq6-GGD5WKrb-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-26" value="Добавление еды или меню" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="510" width="115" height="70" as="geometry" />
+          <mxGeometry x="40" y="117.5" width="115" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-27" value="Сохраняем всех кандидатов на добавление в базу (неразмеченые данные)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="510" width="130" height="70" as="geometry" />
+          <mxGeometry x="200" y="117.5" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-29" target="-zRJ9sDAfq6-GGD5WKrb-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-29" value="Проверка диетологом&lt;br&gt;является ли элемент дерева самостоятельной едой или только опцией" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="374" y="500" width="136" height="90" as="geometry" />
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-29" value="Проверка диетологом&lt;br&gt;является ли элемент дерева самостоятельной едой или только опцией&lt;br&gt;&lt;br&gt;Возможно в дальнейшем появится предложение проверить похожие имена - не является ли новая еда одним и тем же что уже сохранена" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="57.5" width="136" height="190" as="geometry" />
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-27" target="-zRJ9sDAfq6-GGD5WKrb-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="680" as="sourcePoint" />
-            <mxPoint x="490" y="630" as="targetPoint" />
+            <mxPoint x="440" y="287.5" as="sourcePoint" />
+            <mxPoint x="490" y="237.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-31" target="-zRJ9sDAfq6-GGD5WKrb-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-31" value="Все что помечено как is_meal ищем в map по сгенерированому uid restaurant_name_meal_name&amp;nbsp;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="492.5" width="170" height="105" as="geometry" />
+          <mxGeometry x="560" y="100" width="170" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-33" value="Если map создан&amp;nbsp;&lt;br&gt;то создаем новую еду и указываем родителя, если есть. Обновляем map - сохраняем ссылку на объект.&lt;br&gt;&lt;br&gt;Если map найден то обновляем еду и ее потомков, добавляя новые элементы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="473.13" width="170" height="143.75" as="geometry" />
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-33" value="Если map создан и не помечено что эта еда идентична имеющейся&amp;nbsp;&lt;br&gt;то создаем новую еду и указываем родителя, если есть. Обновляем map - сохраняем ссылку на созданную еду.&lt;br&gt;&lt;br&gt;Если map найден то обновляем еду и ее потомков, добавляя новые элементы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="57.5" width="170" height="190" as="geometry" />
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-35" value="Поток добавления еды в базу" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="432.5" width="80" height="60" as="geometry" />
+          <mxGeometry x="40" y="40" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-36" value="Поток выгрузки данных о еде из базы" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="690" width="100" height="60" as="geometry" />
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-36" value="Поток выгрузки данных о еде из базы по запросу клиента" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="337.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="517.5" y="497.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="457.5" y="512.5" />
+              <mxPoint x="457.5" y="497.5" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-37" value="Запрос данных в милми (json)&lt;br&gt;&lt;br&gt;Список еды по рейтингу/меню ресторана" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="32.5" y="780" width="130" height="100" as="geometry" />
+          <mxGeometry x="40" y="437.5" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-38" value="Поиск еды по map" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="750" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-38" target="-zRJ9sDAfq6-GGD5WKrb-38">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="712.5" y="357.5" as="sourcePoint" />
+            <mxPoint x="712.5" y="357.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="165" y="800" as="sourcePoint" />
-            <mxPoint x="265" y="800" as="targetPoint" />
+            <mxPoint x="172.5" y="457.5" as="sourcePoint" />
+            <mxPoint x="272.5" y="457.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-43" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="-zRJ9sDAfq6-GGD5WKrb-42">
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-45" value="Меню" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="427.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-46" value="Еда" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="527.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-48" target="-zRJ9sDAfq6-GGD5WKrb-53">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-48" value="Поиск категорий по нашей базе по списку имен в menu[&#39;categories&#39;]&lt;br&gt;+ передача информации о категориях милми для фильтрафии дочерних элементов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="377.5" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-53" target="-zRJ9sDAfq6-GGD5WKrb-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-53" value="генерация uid еды из милми" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="467.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-zRJ9sDAfq6-GGD5WKrb-55" target="-zRJ9sDAfq6-GGD5WKrb-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-55" value="поиск по map + передача информации из json для фильтрации дочерних элементов" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="667.5" y="457.5" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-57" value="выдача клиенту вычищенного дерева от того что не нужно с id и ценами от милми&lt;br&gt;+ &lt;b&gt;с добавлением вариантов кастомизаций как отдельных позици еды&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="418.13" width="120" height="158.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJ9sDAfq6-GGD5WKrb-59" value="Для этого еще нужно продумать и создать интерфейс создания дефолтно кастомизированных вариантов одной еды" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="960" y="557.5" width="150" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
