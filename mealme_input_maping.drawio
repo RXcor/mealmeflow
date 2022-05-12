@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T06:43:36.457Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="KFxd5OMFPrQ7RFYyQc7V" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-12T06:55:00.891Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="RJRRuvtEJUKnLyesDELh" version="18.0.2" type="github">
   <diagram id="lErkqRbjp-bU6QlJ5qAt" name="Page-1">
     <mxGraphModel dx="868" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,13 +40,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-31" value="Все что помечено как is_meal ищем в map по сгенерированому uid restaurant_name_meal_name&amp;nbsp;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="100" width="170" height="105" as="geometry" />
+          <mxGeometry x="810" y="100" width="170" height="105" as="geometry" />
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-33" value="Если map создан и не помечено что эта еда идентична имеющейся&amp;nbsp;&lt;br&gt;то создаем новую еду и указываем родителя, если есть. Обновляем map - сохраняем ссылку на созданную еду.&lt;br&gt;&lt;br&gt;Если map найден то обновляем еду и ее потомков, добавляя новые элементы" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="57.5" width="170" height="190" as="geometry" />
+          <mxGeometry x="1060" y="57.5" width="170" height="190" as="geometry" />
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-35" value="Поток добавления еды в базу" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="20" width="80" height="60" as="geometry" />
+          <mxGeometry x="40" y="40" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-zRJ9sDAfq6-GGD5WKrb-36" value="Поток выгрузки данных о еде из базы по запросу клиента" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="317.5" width="100" height="60" as="geometry" />
